@@ -25,7 +25,7 @@
         <a href="#home" class="nav__item-top">Home</a>
         <a href="#about-us" class="nav__item-top">O nas</a>
         <a href="#offers" class="nav__item-top">Oferta</a>
-        <a href="#contact" class="nav__item-top">Kontakt</a>
+        <a href="contact.html" class="nav__item-top" target="_blank">Kontakt</a>
     </div>
     <div class="nav__group2">
         <div class="nav__group2-background"></div>
@@ -33,7 +33,7 @@
         <a href="#home" class="nav__item-middle">Home</a>
         <a href="#about-us" class="nav__item-middle">O nas</a>
         <a href="#offers" class="nav__item-middle">Oferta</a>
-        <a href="#contact" class="nav__item-middle">Kontakt</a>
+        <a href="contact.html" class="nav__item-middle" target="_blank">Kontakt</a>
     </div>
     <div class="nav__burger">
         <button class="nav__burger-btn">
@@ -41,7 +41,7 @@
         </button>
     </div>
 </nav>
-    <header class="header" id="#home">
+    <header class="header" id="home">
     <div class="header-text">
         <h2>ForestGroup</h2>
         <h1>Najpiękniejszy Park w Twojej okolicy</h1>
@@ -50,7 +50,7 @@
     <div class="header-shadow"></div>
 </header>
     <div class="wrapper">
-    <main class="main" id="#about-us">
+    <main class="main" id="about-us">
         <div class="main__header">
             <h2>O nas</h2>
         </div>
@@ -84,51 +84,94 @@
                 <p>$0</p>
                 <div class="offers__card-options">
                     <ul>
-                        <li class="available">Option1</li>
-                        <li class="available">Option2</li>
-                        <li class="unavailable">Option3</li>
-                        <li class="unavailable">Option4</li>
-                        <li class="unavailable">Option5</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option2</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option3</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option4</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option5</li>
                     </ul>
                 </div>
-                <button class="offers__card-button">Wybierz</button>
+                <button class="offers-btn">Wybierz</button>
             </div>
             <div class="offers__card">
                 <h3>Standard</h3>
                 <p>$99</p>
                 <div class="offers__card-options">
                     <ul>
-                        <li class="available">Option1</li>
-                        <li class="available">Option2</li>
-                        <li class="available">Option3</li>
-                        <li class="unavailable">Option4</li>
-                        <li class="unavailable">Option5</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option2</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option3</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option4</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option5</li>
                     </ul>
                 </div>
-                <button class="offers__card-button">Wybierz</button>
+                <button class="offers-btn">Wybierz</button>
             </div>
             <div class="offers__card">
                 <h3>Premium</h3>
                 <p>$299</p>
                 <div class="offers__card-options">
                     <ul>
-                        <li class="available">Option1</li>
-                        <li class="available">Option2</li>
-                        <li class="available">Option3</li>
-                        <li class="available">Option4</li>
-                        <li class="available">Option5</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option2</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option3</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option4</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option5</li>
                     </ul>
                 </div>
-                <button class="offers__card-button">Wybierz</button>
+                <button class="offers-btn">Wybierz</button>
             </div>
+        </div>
+
+
+        <div class="offers__others">
+            <button class="offers-btn" onclick="location.href='http://localhost:3000/contact.html'">
+                Spersonalizuj ofertę
+            </button>
         </div>
     </div>
 </section>
 
+
     <a href="contact.html">Contact</a>
 
-    <footer>
-    <p>footer</p>
+    <footer class="footer">
+    <div class="footer__group footer__group-one"></div>
+    <div class="footer__group footer__group-two">
+        <div class="footer__group-text-area">
+            <h3>O nas</h3>
+            <a href="contact.html" target="_blank">
+                <p>Kontakt</p>
+            </a>
+            <a href="#">
+                <p>Parki</p>
+            </a>
+            <a href="#">
+                <p>Opinie</p>
+            </a>
+        </div>
+        <div class="footer__group-text-area">
+            <h3>Nasza firma</h3>
+            <a href="#">
+                <p>Praca</p>
+            </a>
+            <a href="#">
+                <p>Kadry</p>
+            </a>
+            <a href="#">
+                <p>Zarząd</p>
+            </a>
+        </div>
+        <div class="footer__group-text-area">
+            <h3>Dokumenty</h3>
+            <a href="#">
+                <p>Wnioski</p>
+            </a>
+            <a href="#">
+                <p>Rezerwacje</p>
+            </a>
+        </div>
+    </div>
 </footer>
     <script src="/dist/js/main.min.js"></script>
 </body>
