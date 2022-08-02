@@ -14,30 +14,142 @@
 
 <body>
 
-    <nav>
-    <a href="index.html">Home</a>
-    <a href="index.html#about-us">O nas</a>
-    <a href="offers.html">Oferta</a>
-    <a href="contact.html">Kontakt</a>
+    <nav class="nav">
+    <div class="nav__group nav__group-one">
+        <p><i class="fa-solid fa-tree"></i> Forest</p>
+    </div>
+    <div class="nav__group nav__group-two">
+        <div class="nav__group-two-background"></div>
+        <div class="nav__group-two-shadow"></div>
+        <a href="index.html" class="nav__item-top">Home</a>
+        <a href="index.html#about-us" class="nav__item-top">O nas</a>
+        <a href="#offers" class="nav__item-top active">Oferta</a>
+        <a href="contact.html" class="nav__item-top">Kontakt</a>
+    </div>
+    <div class="nav__group2">
+        <div class="nav__group2-background"></div>
+        <div class="nav__group2-shadow"></div>
+        <a href="index.html" class="nav__item-middle">Home</a>
+        <a href="index.html#about-us" class="nav__item-middle">O nas</a>
+        <a href="#offers" class="nav__item-middle">Oferta</a>
+        <a href="contact.html" class="nav__item-middle">Kontakt</a>
+    </div>
+    <div class="nav__burger">
+        <button class="nav__burger-btn">
+            <div class="bars"></div>
+        </button>
+    </div>
 </nav>
+    <section id="offers" class="offers offers-page">
+    <div class="wrapper">
+        <div class="offers__text">
+            <h2>Oferta</h2>
+            <p>Wybierz z rozszerzonej oferty</p>
+        </div>
 
-    <h1>Oferta</h1>
-
-    <footer class="footer">
+        <div class="offers__cards">
+            <div class="offers__card">
+                <h3>Demo</h3>
+                <p>$0</p>
+                <div class="offers__card-options">
+                    <ul>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option2</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option3</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option4</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option5</li>
+                    </ul>
+                </div>
+                <button class="offers-btn">Wybierz</button>
+            </div>
+            <div class="offers__card offers__card-best">
+                <h3>Demo+</h3>
+                <p>$0 przez 6 miesięcy</p>
+                <div class="offers__card-options">
+                    <ul>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option2</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option3</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option4</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option5</li>
+                    </ul>
+                </div>
+                <button class="offers-btn">Wybierz</button>
+            </div>
+            <div class="offers__card  offers__card-best">
+                <h3>Standard</h3>
+                <p>$99</p>
+                <div class="offers__card-options">
+                    <ul>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option2</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option3</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option4</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option5</li>
+                    </ul>
+                </div>
+                <button class="offers-btn">Wybierz</button>
+            </div>
+            <div class="offers__card">
+                <h3>Standard+</h3>
+                <p>$199</p>
+                <div class="offers__card-options">
+                    <ul>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option2</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option3</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option4</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option5</li>
+                    </ul>
+                </div>
+                <button class="offers-btn">Wybierz</button>
+            </div>
+            <div class="offers__card  offers__card-best">
+                <h3>Premium</h3>
+                <p>$299</p>
+                <div class="offers__card-options">
+                    <ul>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option2</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option3</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option4</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option5</li>
+                    </ul>
+                </div>
+                <button class="offers-btn">Wybierz</button>
+            </div>
+            <div class="offers__card">
+                <h3>Family</h3>
+                <p>499$</p>
+                <div class="offers__card-options">
+                    <ul>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option1</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option2</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option3</li>
+                        <li class="unavailable"><i class="fa-solid fa-minus"></i>Option4</li>
+                        <li class="available"><i class="fa-solid fa-check"></i>Option5</li>
+                    </ul>
+                </div>
+                <button class="offers-btn">Wybierz</button>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="footer footer-page">
     <div class="footer__group footer__group-one">
         <p><i class="fa-solid fa-tree"></i> Forest</p>
     </div>
     <div class="footer__group footer__group-two">
         <div class="footer__group-text-area">
-            <h3>O nas</h3>
-            <a href="contact.html" target="_blank">
+            <h3>Nawigacja</h3>
+            <a href="index.html">
+                <p>Home</p>
+            </a>
+            <a href="offers.html">
+                <p>Oferty</p>
+            </a>
+            <a href="contact.html">
                 <p>Kontakt</p>
-            </a>
-            <a href="#">
-                <p>Parki</p>
-            </a>
-            <a href="#">
-                <p>Opinie</p>
             </a>
         </div>
         <div class="footer__group-text-area">
@@ -63,7 +175,7 @@
         </div>
     </div>
 </footer>
-    <script src="/dist/js/main.min.js"></script>
+    <script src="/dist/js/other-pages.min.js"></script>
 </body>
 
 </html>
