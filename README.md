@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/img/screenshot.png)
+![](./dist/img/screenshot.png)
 
 ### Links
 
@@ -84,7 +84,7 @@ Użytkownik powinien móc:
 
 ### Zdjęcie
 
-![](./src/img/screenshot.png)
+![](./dist/img/screenshot.png)
 
 ### Linki
 
